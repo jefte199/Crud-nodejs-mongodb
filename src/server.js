@@ -16,7 +16,7 @@ app.use((error, _req, res, _next) => {
     res.json({ error: error.message });
 });
 
-const PORT = 3322;
+const PORT = 33022;
 
 app.listen(PORT, () => {
     console.log(`Server is running on ${PORT}`);
